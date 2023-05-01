@@ -1,0 +1,11 @@
+{
+    "workbench.editor.decorations.colors": true,
+    "workbench.colorTheme": "Aura Soft Dark",
+    "workbench.colorCustomizations": {
+
+    },
+    "workbench.activityBar.visible": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.colorDecorators": true
+}

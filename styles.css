@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Source+Serif+Pro&display=swap');
+
+#page-1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    gap: 6%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-screen {
+    display: none;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: white;
+    font-size: 34px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    margin-left:2rem;
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+.navigator {
+    margin-right: 5.8%;
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigator p {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.navigator a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigator a:hover {
+    transition: 100ms;
+    color: rgba(255, 255, 255, 0.594);
+}
+
+#icone-logo {
+    background-image: url(./images/logo-icone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+#banner-principal {
+    background-image: url(./images/banner-principal.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-position-y: -120px;
+    z-index: -10;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: saturate(1.2) brightness(0.5);
+}
+
+.text {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-text {
+    width: 46rem;
+    display: flex;
+    margin-left: 6rem;
+    flex-direction: column;
+}
+
+.inner-text h3 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+
+}
+
+.texto-destaque {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+
+}
+
+#more {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: .8rem 0 0 .6rem;
+}
+
+#more a {
+    text-decoration: none;
+    color: white;
+}
+
+#page-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #1d2122;
+}
+
+.titulos-slide {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.titulos-slide h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.titulos-slide h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+
+}
+
+.swiper {
+    display: flex;
+    align-items: center;
+    width: 60rem;
+    height: 80%;
+}
+
+.swiper-wrapper {
+    height: 72%;
+}
+
+.swiper-slide {
+    height: 110%;
+    box-shadow: 10px 10px 8px 1px rgba(0, 0, 0, 0.494);
+    transition: 200ms;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.swiper-slide:hover {
+    transform: scale(1.04);
+}
+
+.swiper-button-prev {
+    color: rgb(255, 255, 255);
+}
+
+.swiper-button-next {
+    color: rgb(255, 255, 255);
+}
+
+#page-3 {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-rodape {
+    background: url(./images/banner-rodape1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    filter: brightness(0.6)
+}
+
+.text-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    width: 48rem;
+    height: 92%;
+    margin-left: 6rem;
+
+}
+
+.titulo-box {
+    width: 86%;
+}
+
+.titulo-box h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.paragrafo-box {
+    width: 98%;
+    margin: .8rem 0 0 .8rem;
+}
+
+.paragrafo-box p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: medium;
+    color: white;
+}
+
+.redes-socias {
+    width: 100%;
+    gap: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redesocial {
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+}
+
+.redesocial a {
+    position: absolute;
+    z-index: 10;
+    width: 28px;
+    height: 28px;
+}
+
+.instagram {
+    background-image: url(images/instagram-ico.png);
+}
+
+.twitter {
+    background-image: url(images/twitter-ico.png);
+}
+
+.github {
+    background-image: url(images/github-ico.png);
+}
+
+.linkedin {
+    background-image: url(images/linkedin-ico.png);
+}
+
+@media screen and (max-width:976px) {
+    #page-1 {
+        height: 96vh;
+    }
+
+    .swiper {
+        width: 40rem;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+    }
+
+    .text-end {
+        width: 40rem;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+
+
+    .text-end {
+
+        margin-left: 6%;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    .header {
+        justify-content: space-around;
+        gap: 12rem;
+    }
+
+    .navigator {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu-screen {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        gap: .4rem;
+    }
+
+    .menu-screen a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #menu-hamburguer {
+        display: block;
+        background-image: url(./images/menu-hamburguer.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked~.menu-screen {
+        display: flex;
+
+    }
+
+    .text-end {
+        width: 80%;
+    }
+    .paragrafo-box {
+        margin:0.4rem 0 0 0;
+    }
+    .paragrafo-box p {
+
+        font-size: 24px;
+        
+    }
+
+}
+
+@media screen and (max-width:654px){
+    .header{
+        
+        gap:-10rem;
+        justify-content: space-between;
+    }
+    .swiper{
+        width: 90%;
+    }
+
+    .inner-text{
+        margin-left:2rem;
+    }
+}
