@@ -10,7 +10,18 @@ var swiper = new Swiper('.swiper', {
   autoplay: {
     delay: 2000,
   },
-  
+  breakpoints:{
+    0: {
+      slidesPerView: 1
+    },
+    654:{
+      slidesPerView: 2
+    },
+
+    976:{
+      slidesPerView:3
+    }
+  }
 }); 
 
 
